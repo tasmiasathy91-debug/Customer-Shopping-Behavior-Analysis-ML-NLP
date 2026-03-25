@@ -1,30 +1,37 @@
-#Global Data Professional Survey Analysis Portfolio Project (NLP + ML)
+📂Global Data Professional Survey Analysis Portfolio Project (NLP + ML)
 
-#📂 Complete Project Structure
+📂 Complete Project Structure
 
-survey-analysis-nlp-ml
+survey-ml-nlp-dashboard/
 │
-├── dataset
-│   └── survey_data.csv
+├── data/
+│   ├── raw/
+│   │   └── survey_data.csv
+│   ├── processed/
+│   │   └── cleaned_data.csv
 │
-├── notebooks
+├── notebooks/
 │   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_nlp_analysis.ipynb
-│   └── 04_ml_model.ipynb
+│   ├── 02_eda_analysis.ipynb
+│   ├── 03_ml_model.ipynb
+│   └── 04_nlp_analysis.ipynb
 │
-├── models
-│   └── salary_prediction_model.pkl
+├── src/
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   ├── predict.py
+│   └── nlp_processing.py
 │
-├── dashboard
-│   └── survey_dashboard.pbix
+├── app/
+│   └── app.py   # Streamlit dashboard
 │
-├── screenshots
+├── models/
+│   └── salary_model.pkl
+│
+├── images/
 │   ├── dashboard.png
-│   ├── sentiment_analysis.png
-│   └── ml_predictions.png
+│   ├── feature_importance.png
+│   └── wordcloud.png
 │
-├── reports
-│   └── final_report.pdf
-│
+├── requirements.txt
 └── README.md
