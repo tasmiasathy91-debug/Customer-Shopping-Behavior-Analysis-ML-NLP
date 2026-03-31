@@ -59,4 +59,37 @@ o	Neutral
 
 <img width="493" height="466" alt="3 Capture" src="https://github.com/user-attachments/assets/e961bc33-97a6-4b0c-a2cb-0b15e672eb41" />
 
+# Machine Learning Model
+
+# Model Used:
+
+•	Random Forest Classifier
+
+# Process:
+
+•	Train-Test Split (80/20) 
+
+•	Model training on training data 
+
+•	Prediction on test data 
+
+# Evaluation Metrics:
+
+•	Accuracy Score 
+
+•	Precision, Recall, F1-score
+
+# Result:
+
+The model achieved good accuracy and successfully identified factors influencing subscription behaviour.
+<img width="358" height="417" alt="5 Capture" src="https://github.com/user-attachments/assets/d7fb4a8f-aa59-42e7-9a57-d7493859221d" />
+
+# Conclusion
+
+This project demonstrates how Machine Learning and NLP can be combined to analyze customer behaviour effectively. By leveraging structured data and unstructured text (reviews), businesses can gain deeper insights, improve decision-making, and enhance customer experience.
+
+
+
+
+
 
