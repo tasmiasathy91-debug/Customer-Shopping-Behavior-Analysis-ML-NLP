@@ -1,4 +1,7 @@
-# Customer Shopping Behaviour Analysis(End to end) using (ML + NLP)
+# Project Title:
+Customer Shopping Behaviour Analysis(End to end) using (ML + NLP)
+
+# Objective
 Understanding customer shopping behaviour is crucial for improving sales, customer retention, and personalization. This project analyses customer data using Machine Learning (ML) and Natural Language Processing (NLP) to uncover patterns and predict customer actions such as subscription decisions.
 
 # This project is perfect for:
